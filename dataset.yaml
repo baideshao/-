@@ -1,0 +1,5 @@
+path: D:/pig-objection detection/experiments/dataset
+train: images/train
+val: images/val
+names:
+  0: pig
