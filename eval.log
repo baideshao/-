@@ -1,163 +1,292 @@
->>> evaluating yolov5s ...
-loading annotations into memory...
-Done (t=0.01s)
-creating index...
-index created!
-Loading and preparing results...
-DONE (t=0.00s)
-creating index...
-index created!
-Running per image evaluation...
-Evaluate annotation type *bbox*
-DONE (t=0.49s).
-Accumulating evaluation results...
-DONE (t=0.04s).
- Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.800
- Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.989
- Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.963
- Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
- Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.468
- Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.802
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.092
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.845
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.848
- Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.648
- Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.851
-    yolov5s: AP50=0.9893 AP50-95=0.7997 P=0.9818 R=0.9908
->>> evaluating yolov8s ...
-loading annotations into memory...
-Done (t=0.00s)
-creating index...
-index created!
-Loading and preparing results...
-DONE (t=0.00s)
-creating index...
-index created!
-Running per image evaluation...
-Evaluate annotation type *bbox*
-DONE (t=0.58s).
-Accumulating evaluation results...
-DONE (t=0.04s).
- Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.798
- Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.989
- Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.963
- Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
- Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.469
- Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.799
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.091
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.843
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.845
- Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.597
- Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.849
-    yolov8s: AP50=0.9893 AP50-95=0.7985 P=0.9823 R=0.9919
->>> evaluating yolo11s ...
-loading annotations into memory...
-Done (t=0.00s)
-creating index...
-index created!
-Loading and preparing results...
-DONE (t=0.00s)
-creating index...
-index created!
-Running per image evaluation...
-Evaluate annotation type *bbox*
-DONE (t=0.50s).
-Accumulating evaluation results...
-DONE (t=0.04s).
- Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.806
- Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.989
- Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.969
- Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
- Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.471
- Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.808
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.093
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.847
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.851
- Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.648
- Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.854
-    yolo11s: AP50=0.9894 AP50-95=0.8057 P=0.9853 R=0.9903
->>> evaluating rtdetr-l ...
-loading annotations into memory...
-Done (t=0.01s)
-creating index...
-index created!
-Loading and preparing results...
-DONE (t=0.02s)
-creating index...
-index created!
-Running per image evaluation...
-Evaluate annotation type *bbox*
-DONE (t=1.95s).
-Accumulating evaluation results...
-DONE (t=0.11s).
- Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.811
- Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.989
- Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.965
- Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
- Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.492
- Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.815
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.094
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.850
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.857
- Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.687
- Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.860
-    rtdetr-l: AP50=0.9887 AP50-95=0.8114 P=0.9606 R=0.9934
->>> evaluating ssd ...
-loading annotations into memory...
-Done (t=0.01s)
-creating index...
-index created!
-Loading and preparing results...
-DONE (t=0.02s)
-creating index...
-index created!
-Running per image evaluation...
-Evaluate annotation type *bbox*
-DONE (t=1.83s).
-Accumulating evaluation results...
-DONE (t=0.11s).
- Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.686
- Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.979
- Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.860
- Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
- Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.213
- Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.692
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.082
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.743
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.747
- Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.429
- Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.752
-    ssd: AP50=0.9791 AP50-95=0.6861 P=0.9865 R=0.9644
->>> evaluating frcnn ...
-loading annotations into memory...
-Done (t=0.01s)
-creating index...
-index created!
-Loading and preparing results...
-DONE (t=0.10s)
-creating index...
-index created!
-Running per image evaluation...
-Evaluate annotation type *bbox*
-DONE (t=0.41s).
-Accumulating evaluation results...
-DONE (t=0.04s).
- Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.739
- Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.986
- Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.929
- Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
- Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.334
- Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.743
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.086
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.781
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.784
- Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.474
- Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.789
-    frcnn: AP50=0.9864 AP50-95=0.7391 P=0.8724 R=0.9888
-ALL EVALUATIONS DONE
+
+Eval Config:
+USE_PARALLEL         : False                         
+NUM_PARALLEL_CORES   : 1                             
+BREAK_ON_ERROR       : False                         
+RETURN_ON_ERROR      : True                          
+LOG_ON_ERROR         : False                         
+PRINT_RESULTS        : True                          
+PRINT_ONLY_COMBINED  : False                         
+DISPLAY_LESS_PROGRESS : True                          
+TIME_PROGRESS        : False                         
+PRINT_CONFIG         : True                          
+OUTPUT_SUMMARY       : True                          
+OUTPUT_EMPTY_CLASSES : True                          
+OUTPUT_DETAILED      : True                          
+PLOT_CURVES          : True                          
+
+CLEAR Config:
+THRESHOLD            : 0.5                           
+PRINT_CONFIG         : True                          
+
+Identity Config:
+THRESHOLD            : 0.5                           
+PRINT_CONFIG         : True                          
+
+Evaluating 6 tracker(s) on 7 sequence(s) for 1 class(es) on PigMot dataset using the following metrics: HOTA, CLEAR, Identity, Count
+
+
+Evaluating botsort
+
+
+HOTA: botsort-pig                  HOTA      DetA      AssA      DetRe     DetPr     AssRe     AssPr     LocA      OWTA      HOTA(0)   LocA(0)   HOTALocA(0)
+191                                70.821    75.025    67.113    81.374    78.763    70.061    84.017    82.907    73.861    89.314    80.083    71.525    
+192                                65.841    67.441    64.425    77.294    72.711    68.091    80.512    81.182    70.549    88.097    76.847    67.7      
+193                                63.834    61.834    66.029    68.044    74.554    69.828    80.468    80.905    66.922    86.364    76.691    66.234    
+194                                63.905    70.996    57.547    82.412    74.845    61.621    77.959    84.032    68.829    80.157    81.234    65.115    
+195                                69.047    70.896    67.256    81.478    74.486    70.325    81.449    83        73.959    88.219    80.039    70.61     
+196                                71.637    69.733    73.808    79.915    74.123    77.262    82.796    82.341    76.787    91.596    78.846    72.22     
+197                                74.751    71.112    78.587    82.503    74.536    82.197    83.243    83.791    80.463    93.983    81.176    76.292    
+COMBINED                           68.533    69.444    67.74     78.724    74.884    71.273    81.68     82.522    72.999    88.339    79.143    69.914    
+
+CLEAR: botsort-pig                 MOTA      MOTP      MODA      CLR_Re    CLR_Pr    MTR       PTR       MLR       sMOTA     CLR_TP    CLR_FN    CLR_FP    IDSW      MT        PT        ML        Frag      
+191                                95.728    80.161    95.797    99.557    96.361    100       0         0         75.978    17293     77        653       12        10        0         0         15        
+192                                85.289    78.033    85.39     95.847    90.163    100       0         0         64.234    18048     782       1969      19        10        0         0         55        
+193                                77.587    77.815    77.692    84.48     92.562    87.5      0         12.5      58.845    12868     2364      1034      16        7         0         1         24        
+194                                86.51     81.612    86.786    98.448    89.409    100       0         0         68.407    12494     197       1480      35        7         0         0         44        
+195                                89.548    80.119    89.864    99.626    91.076    100       0         0         69.741    11981     45        1174      38        7         0         0         15        
+196                                87.801    79.396    87.861    97.838    90.747    100       0         0         67.642    12896     285       1315      8         7         0         0         29        
+197                                86.598    81.586    86.85     98.769    89.232    100       0         0         68.41     12521     156       1511      32        7         0         0         26        
+COMBINED                           87.058    79.723    87.215    96.171    91.481    98.214    0         1.7857    67.557    98101     3906      9136      160       55        0         1         208       
+
+Identity: botsort-pig              IDF1      IDR       IDP       IDTP      IDFN      IDFP      
+191                                84.868    86.275    83.506    14986     2384      2960      
+192                                81.427    83.994    79.013    15816     3014      4201      
+193                                80.435    76.924    84.283    11717     3515      2185      
+194                                75.785    79.615    72.306    10104     2587      3870      
+195                                86.827    90.903    83.101    10932     1094      2223      
+196                                89.457    92.952    86.215    12252     929       1959      
+197                                92.98     97.949    88.491    12417     260       1615      
+COMBINED                           84.326    86.488    82.27     88224     13783     19013     
+
+Count: botsort-pig                 Dets      GT_Dets   IDs       GT_IDs    
+191                                17946     17370     48        10        
+192                                20017     18830     58        10        
+193                                13902     15232     50        8         
+194                                13974     12691     62        7         
+195                                13155     12026     67        7         
+196                                14211     13181     47        7         
+197                                14032     12677     50        7         
+COMBINED                           107237    102007    382       56        
+
+Evaluating bytetrack
+
+
+HOTA: bytetrack-pig                HOTA      DetA      AssA      DetRe     DetPr     AssRe     AssPr     LocA      OWTA      HOTA(0)   LocA(0)   HOTALocA(0)
+191                                69.204    74.891    64.275    81.26     78.67     67.067    83.966    82.822    72.223    87.143    79.969    69.687    
+192                                64.434    67.068    62.087    76.889    72.33     65.608    80.217    80.879    69.076    86.514    76.447    66.137    
+193                                60.292    61.358    59.422    67.522    73.971    62.53     80.275    80.48     63.23     81.735    76.167    62.255    
+194                                58.67     69.508    49.616    81.059    73.601    51.612    81.764    83.178    63.409    74.216    79.94     59.328    
+195                                61.967    69.453    55.358    79.968    73.15     57.789    80.482    81.951    66.515    80.033    78.568    62.88     
+196                                68.766    69.347    68.46     79.516    73.779    71.742    82.268    82.055    73.772    88.222    78.446    69.207    
+197                                70.111    70.226    70.04     81.582    73.719    73.267    82.383    83.118    75.565    88.715    80.286    71.226    
+COMBINED                           65.047    68.767    61.701    78.039    74.244    64.677    81.79     82.035    69.37     84.214    78.471    66.084    
+
+CLEAR: bytetrack-pig               MOTA      MOTP      MODA      CLR_Re    CLR_Pr    MTR       PTR       MLR       sMOTA     CLR_TP    CLR_FN    CLR_FP    IDSW      MT        PT        ML        Frag      
+191                                95.607    80.031    95.717    99.505    96.333    100       0         0         75.737    17284     86        658       19        10        0         0         20        
+192                                85.252    77.611    85.358    95.831    90.148    100       0         0         63.796    18045     785       1972      20        10        0         0         53        
+193                                77.508    77.3      77.6      84.441    92.506    87.5      0         12.5      58.339    12862     2370      1042      14        7         0         1         25        
+194                                85.628    80.607    85.943    98.038    89.018    100       0         0         66.615    12442     249       1535      40        7         0         0         49        
+195                                89.464    78.862    89.78     99.551    91.063    100       0         0         68.421    11972     54        1175      38        7         0         0         16        
+196                                87.74     79.029    87.823    97.8      90.743    100       0         0         67.23     12891     290       1315      11        7         0         0         32        
+197                                86.401    80.773    86.527    98.596    89.094    100       0         0         67.444    12499     178       1530      16        7         0         0         30        
+COMBINED                           86.867    79.12     87.021    96.067    91.394    98.214    0         1.7857    66.808    97995     4012      9227      158       55        0         1         225       
+
+Identity: bytetrack-pig            IDF1      IDR       IDP       IDTP      IDFN      IDFP      
+191                                80.551    81.877    79.267    14222     3148      3720      
+192                                80.361    82.894    77.979    15609     3221      4408      
+193                                75.762    72.459    79.38     11037     4195      2867      
+194                                66.364    69.727    63.311    8849      3842      5128      
+195                                75.231    78.738    72.024    9469      2557      3678      
+196                                83.828    87.087    80.804    11479     1702      2727      
+197                                85.426    89.982    81.31     11407     1270      2622      
+COMBINED                           78.452    80.457    76.544    82072     19935     25150     
+
+Count: bytetrack-pig               Dets      GT_Dets   IDs       GT_IDs    
+191                                17942     17370     49        10        
+192                                20017     18830     59        10        
+193                                13904     15232     49        8         
+194                                13977     12691     63        7         
+195                                13147     12026     74        7         
+196                                14206     13181     49        7         
+197                                14029     12677     54        7         
+COMBINED                           107222    102007    397       56        
+
+Evaluating deepocsort
+
+
+HOTA: deepocsort-pig               HOTA      DetA      AssA      DetRe     DetPr     AssRe     AssPr     LocA      OWTA      HOTA(0)   LocA(0)   HOTALocA(0)
+191                                68.559    75.438    62.594    81.148    79.415    65.243    83.906    82.901    71.227    86.334    80.074    69.131    
+192                                65.198    67.809    62.84     76.92     73.467    66.453    80.796    81.175    69.505    87.364    76.832    67.123    
+193                                61.504    62.237    60.908    67.955    75.279    64.344    80.763    80.936    64.229    83.263    76.733    63.89     
+194                                57.036    71.75     45.392    81.652    76.363    46.985    83.08     84.069    60.865    70.901    81.268    57.619    
+195                                65.137    72.139    58.864    81.112    76.183    61.296    81.696    82.986    69.068    82.539    79.989    66.022    
+196                                67.528    70.383    65.103    79.599    75.147    68.215    82.879    82.368    71.97     85.719    78.878    67.613    
+197                                70.265    72.187    68.443    82.278    75.929    71.348    83.512    83.839    75.021    87.517    81.254    71.111    
+COMBINED                           65.295    70.096    60.958    78.396    75.954    63.819    82.509    82.536    69.112    83.896    79.155    66.408    
+
+CLEAR: deepocsort-pig              MOTA      MOTP      MODA      CLR_Re    CLR_Pr    MTR       PTR       MLR       sMOTA     CLR_TP    CLR_FN    CLR_FP    IDSW      MT        PT        ML        Frag      
+191                                96.258    80.135    96.402    99.292    97.172    100       0         0         76.533    17247     123       502       25        10        0         0         30        
+192                                85.953    78.072    86.059    95.38     91.098    100       0         0         65.038    17960     870       1755      20        10        0         0         51        
+193                                78.322    77.851    78.388    84.329    93.418    87.5      0         12.5      59.644    12845     2387      905       10        7         0         1         25        
+194                                87.779    81.651    88.125    97.526    91.209    100       0         0         69.884    12377     314       1193      44        7         0         0         69        
+195                                91.46     80.203    91.784    99.127    93.104    100       0         0         71.836    11921     105       883       39        7         0         0         35        
+196                                88.772    79.414    88.916    97.421    91.971    100       0         0         68.717    12841     340       1121      19        7         0         0         42        
+197                                88.207    81.661    88.373    98.367    90.777    100       0         0         70.167    12470     207       1267      21        7         0         0         35        
+COMBINED                           88.089    79.756    88.264    95.74     92.757    98.214    0         1.7857    68.707    97661     4346      7626      178       55        0         1         287       
+
+Identity: deepocsort-pig           IDF1      IDR       IDP       IDTP      IDFN      IDFP      
+191                                81.779    82.671    80.906    14360     3010      3389      
+192                                80.493    82.384    78.686    15513     3317      4202      
+193                                75.288    71.626    79.345    10910     4322      2840      
+194                                60.18     62.265    58.231    7902      4789      5668      
+195                                79.106    81.665    76.703    9821      2205      2983      
+196                                79.947    82.315    77.711    10850     2331      3112      
+197                                84.455    87.986    81.197    11154     1523      2583      
+COMBINED                           77.677    78.926    76.467    80510     21497     24777     
+
+Count: deepocsort-pig              Dets      GT_Dets   IDs       GT_IDs    
+191                                17749     17370     42        10        
+192                                19715     18830     54        10        
+193                                13750     15232     37        8         
+194                                13570     12691     56        7         
+195                                12804     12026     59        7         
+196                                13962     13181     43        7         
+197                                13737     12677     48        7         
+COMBINED                           105287    102007    339       56        
+
+Evaluating hybridsort
+
+
+HOTA: hybridsort-pig               HOTA      DetA      AssA      DetRe     DetPr     AssRe     AssPr     LocA      OWTA      HOTA(0)   LocA(0)   HOTALocA(0)
+191                                70.838    75.444    66.768    81.195    79.377    69.774    83.511    82.899    73.588    89.441    80.067    71.613    
+192                                63.627    67.762    59.898    76.939    73.403    64.047    77.501    81.182    67.867    85.021    76.838    65.329    
+193                                62.79     62.205    63.512    67.932    75.276    67.238    80.543    80.952    65.576    84.968    76.753    65.216    
+194                                57.259    71.417    45.963    81.567    76.065    48.079    79.585    84.029    61.216    71.522    81.007    57.938    
+195                                67.756    71.717    64.097    81.045    75.772    67.016    80.058    82.965    72.053    85.686    79.797    68.375    
+196                                68.415    70.333    66.825    79.58     75.091    70.007    82.217    82.347    72.912    87.28     78.842    68.813    
+197                                72.448    72.101    72.821    82.283    75.829    76.583    82.567    83.838    77.369    90.634    81.247    73.638    
+COMBINED                           66.33     69.976    63.003    78.384    75.826    66.32     80.955    82.528    70.256    85.299    79.097    67.469    
+
+CLEAR: hybridsort-pig              MOTA      MOTP      MODA      CLR_Re    CLR_Pr    MTR       PTR       MLR       sMOTA     CLR_TP    CLR_FN    CLR_FP    IDSW      MT        PT        ML        Frag      
+191                                96.31     80.133    96.431    99.361    97.135    100       0         0         76.569    17259     111       509       21        10        0         0         25        
+192                                85.9      78.061    86.017    95.417    91.032    100       0         0         64.967    17967     863       1770      22        10        0         0         50        
+193                                78.21     77.872    78.283    84.263    93.373    87.5      0         12.5      59.564    12835     2397      911       11        7         0         1         28        
+194                                87.865    81.671    88.181    97.707    91.116    100       0         0         69.957    12400     291       1209      40        7         0         0         61        
+195                                91.394    80.152    91.693    99.326    92.863    100       0         0         71.679    11945     81        918       36        7         0         0         26        
+196                                88.779    79.393    88.893    97.436    91.939    100       0         0         68.701    12843     338       1126      15        7         0         0         39        
+197                                88.081    81.665    88.254    98.383    90.666    100       0         0         70.042    12472     205       1284      22        7         0         0         35        
+COMBINED                           88.06     79.751    88.223    95.798    92.672    98.214    0         1.7857    68.661    97721     4286      7727      167       55        0         1         264       
+
+Identity: hybridsort-pig           IDF1      IDR       IDP       IDTP      IDFN      IDFP      
+191                                86.926    87.922    85.952    15272     2098      2496      
+192                                78.181    80.064    76.384    15076     3754      4661      
+193                                79.184    75.322    83.464    11473     3759      2273      
+194                                62.03     64.274    59.938    8157      4534      5452      
+195                                83.627    86.538    80.906    10407     1619      2456      
+196                                83.145    85.631    80.8      11287     1894      2682      
+197                                89.706    93.524    86.188    11856     821       1900      
+COMBINED                           80.526    81.885    79.213    83528     18479     21920     
+
+Count: hybridsort-pig              Dets      GT_Dets   IDs       GT_IDs    
+191                                17768     17370     30        10        
+192                                19737     18830     43        10        
+193                                13746     15232     33        8         
+194                                13609     12691     42        7         
+195                                12863     12026     35        7         
+196                                13969     13181     34        7         
+197                                13756     12677     33        7         
+COMBINED                           105448    102007    250       56        
+
+Evaluating ocsort
+
+
+HOTA: ocsort-pig                   HOTA      DetA      AssA      DetRe     DetPr     AssRe     AssPr     LocA      OWTA      HOTA(0)   LocA(0)   HOTALocA(0)
+191                                68.559    75.438    62.594    81.148    79.415    65.243    83.906    82.901    71.227    86.334    80.074    69.131    
+192                                65.198    67.809    62.84     76.92     73.467    66.453    80.796    81.175    69.505    87.364    76.832    67.123    
+193                                61.472    62.219    60.863    67.935    75.279    64.297    80.765    80.936    64.196    83.218    76.733    63.856    
+194                                56.569    71.74     44.666    81.643    76.36     46.25     82.965    84.069    60.376    70.225    81.265    57.068    
+195                                64.381    72.09     57.595    81.058    76.18     59.952    81.754    82.99     68.317    81.079    80.002    64.865    
+196                                67.515    70.362    65.097    79.571    75.153    68.208    82.879    82.373    71.954    85.694    78.887    67.601    
+197                                70.263    72.182    68.443    82.278    75.923    71.348    83.512    83.839    75.021    87.514    81.254    71.108    
+COMBINED                           65.149    70.083    60.707    78.382    75.953    63.558    82.507    82.537    68.965    83.643    79.157    66.21     
+
+CLEAR: ocsort-pig                  MOTA      MOTP      MODA      CLR_Re    CLR_Pr    MTR       PTR       MLR       sMOTA     CLR_TP    CLR_FN    CLR_FP    IDSW      MT        PT        ML        Frag      
+191                                96.258    80.135    96.402    99.292    97.172    100       0         0         76.533    17247     123       502       25        10        0         0         30        
+192                                85.953    78.072    86.059    95.38     91.098    100       0         0         65.038    17960     870       1755      20        10        0         0         51        
+193                                78.283    77.852    78.361    84.303    93.416    87.5      0         12.5      59.611    12841     2391      905       12        7         0         1         27        
+194                                87.755    81.652    88.102    97.51     91.201    100       0         0         69.864    12375     316       1194      44        7         0         0         70        
+195                                91.352    80.2      91.718    99.06     93.099    100       0         0         71.739    11913     113       883       44        7         0         0         40        
+196                                88.711    79.428    88.87     97.375    91.968    100       0         0         68.679    12835     346       1121      21        7         0         0         45        
+197                                88.199    81.661    88.365    98.367    90.77     100       0         0         70.159    12470     207       1268      21        7         0         0         35        
+COMBINED                           88.059    79.757    88.242    95.72     92.754    98.214    0         1.7857    68.682    97641     4366      7628      187       55        0         1         298       
+
+Identity: ocsort-pig               IDF1      IDR       IDP       IDTP      IDFN      IDFP      
+191                                81.779    82.671    80.906    14360     3010      3389      
+192                                80.493    82.384    78.686    15513     3317      4202      
+193                                75.257    71.586    79.325    10904     4328      2842      
+194                                60.183    62.265    58.236    7902      4789      5667      
+195                                77.093    79.561    74.773    9568      2458      3228      
+196                                79.913    82.262    77.694    10843     2338      3113      
+197                                84.452    87.986    81.191    11154     1523      2584      
+COMBINED                           77.427    78.665    76.228    80244     21763     25025     
+
+Count: ocsort-pig                  Dets      GT_Dets   IDs       GT_IDs    
+191                                17749     17370     42        10        
+192                                19715     18830     54        10        
+193                                13746     15232     38        8         
+194                                13569     12691     56        7         
+195                                12796     12026     59        7         
+196                                13956     13181     43        7         
+197                                13738     12677     48        7         
+COMBINED                           105269    102007    340       56        
+
+Evaluating strongsort
+
+
+HOTA: strongsort-pig               HOTA      DetA      AssA      DetRe     DetPr     AssRe     AssPr     LocA      OWTA      HOTA(0)   LocA(0)   HOTALocA(0)
+191                                66.598    66.117    67.312    81.305    69.066    70.485    82.499    82.77     73.94     84.274    79.758    67.215    
+192                                60.622    60.031    61.357    77.972    63.741    64.97     79.917    81.114    69.154    80.775    76.732    61.98     
+193                                60.163    54.506    66.526    68.237    64.092    70.345    80.083    80.937    67.257    81.211    76.728    62.312    
+194                                47.063    55.176    40.196    82.224    57.566    41.824    79.288    83.756    57.486    58.565    80.602    47.205    
+195                                55.57     55.375    55.788    81.219    57.792    58.259    80.389    82.916    67.288    70.473    79.67     56.146    
+196                                63.8      60.678    67.31     80.289    63.791    70.546    82.099    82.304    73.502    81.15     78.769    63.921    
+197                                62.258    56.256    68.914    82.543    58.435    72.122    81.77     83.735    75.39     77.757    80.971    62.96     
+COMBINED                           59.945    58.478    61.546    78.865    62.255    64.61     81.028    82.429    69.649    77.062    78.907    60.807    
+
+CLEAR: strongsort-pig              MOTA      MOTP      MODA      CLR_Re    CLR_Pr    MTR       PTR       MLR       sMOTA     CLR_TP    CLR_FN    CLR_FP    IDSW      MT        PT        ML        Frag      
+191                                82.044    79.958    82.13     99.925    84.884    100       0         0         62.016    17357     13        3091      15        10        0         0         5         
+192                                71.402    77.959    71.492    96.909    79.222    100       0         0         50.043    18248     582       4786      17        10        0         0         19        
+193                                62.914    77.814    62.94     84.703    79.558    87.5      0         12.5      44.121    12902     2330      3315      4         7         0         1         14        
+194                                54.818    81.303    55.086    98.96     69.283    100       0         0         36.315    12559     132       5568      34        7         0         0         17        
+195                                59.03     80.038    59.163    99.85     71.049    100       0         0         39.098    12008     18        4893      16        7         0         0         4         
+196                                70.935    79.365    70.981    98.422    78.198    100       0         0         50.626    12973     208       3617      6         7         0         0         16        
+197                                56.906    81.452    57.056    99.156    70.196    100       0         0         38.515    12570     107       5337      19        7         0         0         12        
+COMBINED                           66.563    79.601    66.672    96.677    76.315    98.214    0         1.7857    46.842    98617     3390      30607     111       55        0         1         87        
+
+Identity: strongsort-pig           IDF1      IDR       IDP       IDTP      IDFN      IDFP      
+191                                81.131    88.319    75.024    15341     2029      5107      
+192                                73.744    81.976    67.014    15436     3394      7598      
+193                                75.29     77.725    73.004    11839     3393      4378      
+194                                48.348    58.703    41.099    7450      5241      10677     
+195                                64.168    77.174    54.914    9281      2745      7620      
+196                                76        85.828    68.192    11313     1868      5277      
+197                                73.705    88.909    62.942    11271     1406      6636      
+COMBINED                           70.865    80.319    63.402    81931     20076     47293     
+
+Count: strongsort-pig              Dets      GT_Dets   IDs       GT_IDs    
+191                                20448     17370     74        10        
+192                                23034     18830     87        10        
+193                                16217     15232     67        8         
+194                                18127     12691     101       7         
+195                                16901     12026     95        7         
+196                                16590     13181     61        7         
+197                                17907     12677     96        7         
+COMBINED                           129224    102007    581       56        
+botsort {"HOTA": 0.8834, "DetA": 0.9072, "AssA": 0.8602, "MOTA": 0.8706, "MOTP": 0.7972, "IDF1": 0.8433, "IDSW": 160, "FP": 9136, "FN": 3906, "MT": 55, "ML": 1, "Frag": 208}
+bytetrack {"HOTA": 0.8421, "DetA": 0.9074, "AssA": 0.7815, "MOTA": 0.8687, "MOTP": 0.7912, "IDF1": 0.7845, "IDSW": 158, "FP": 9227, "FN": 4012, "MT": 55, "ML": 1, "Frag": 225}
+deepocsort {"HOTA": 0.839, "DetA": 0.916, "AssA": 0.7684, "MOTA": 0.8809, "MOTP": 0.7976, "IDF1": 0.7768, "IDSW": 178, "FP": 7626, "FN": 4346, "MT": 55, "ML": 1, "Frag": 287}
+hybridsort {"HOTA": 0.853, "DetA": 0.9157, "AssA": 0.7945, "MOTA": 0.8806, "MOTP": 0.7975, "IDF1": 0.8053, "IDSW": 167, "FP": 7727, "FN": 4286, "MT": 55, "ML": 1, "Frag": 264}
+ocsort {"HOTA": 0.8364, "DetA": 0.9158, "AssA": 0.7639, "MOTA": 0.8806, "MOTP": 0.7976, "IDF1": 0.7743, "IDSW": 187, "FP": 7628, "FN": 4366, "MT": 55, "ML": 1, "Frag": 298}
+strongsort {"HOTA": 0.7706, "DetA": 0.7623, "AssA": 0.7791, "MOTA": 0.6656, "MOTP": 0.796, "IDF1": 0.7087, "IDSW": 111, "FP": 30607, "FN": 3390, "MT": 55, "ML": 1, "Frag": 87}
+EVAL DONE

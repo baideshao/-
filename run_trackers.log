@@ -1,0 +1,218 @@
+C:\Users\86152\anaconda3\envs\yolo\lib\site-packages\boxmot\utils\checks.py:3: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+[32m2026-10-21 16:55:04.128[0m | [1mINFO    [0m | [36mboxmot.utils.torch_utils[0m:[36mselect_device[0m:[36m52[0m - [1mYolo Tracking v10.0.78 \U0001f680 Python-3.10.21 torch-2.7.1+cu118
+CUDA:0 (NVIDIA GeForce RTX 3060 Laptop GPU, 6144MiB)[0m
+[32m2026-10-21 16:55:04.248[0m | [32m[1mSUCCESS [0m | [36mboxmot.appearance.reid_model_factory[0m:[36mload_pretrained_weights[0m:[36m183[0m - [32m[1mLoaded pretrained weights from D:\PIG_MOT_TEST_DATA\tracking_experiments\weights\osnet_x0_25_msmt17.pt[0m
+[32m2026-10-21 16:55:04.404[0m | [1mINFO    [0m | [36mboxmot.utils.torch_utils[0m:[36mselect_device[0m:[36m52[0m - [1mYolo Tracking v10.0.78 \U0001f680 Python-3.10.21 torch-2.7.1+cu118
+CUDA:0 (NVIDIA GeForce RTX 3060 Laptop GPU, 6144MiB)[0m
+[32m2026-10-21 16:55:04.517[0m | [32m[1mSUCCESS [0m | [36mboxmot.appearance.reid_model_factory[0m:[36mload_pretrained_weights[0m:[36m183[0m - [32m[1mLoaded pretrained weights from D:\PIG_MOT_TEST_DATA\tracking_experiments\weights\osnet_x0_25_msmt17.pt[0m
+[32m2026-10-21 16:55:04.571[0m | [1mINFO    [0m | [36mboxmot.utils.torch_utils[0m:[36mselect_device[0m:[36m52[0m - [1mYolo Tracking v10.0.78 \U0001f680 Python-3.10.21 torch-2.7.1+cu118
+CUDA:0 (NVIDIA GeForce RTX 3060 Laptop GPU, 6144MiB)[0m
+[32m2026-10-21 16:55:04.832[0m | [32m[1mSUCCESS [0m | [36mboxmot.appearance.reid_model_factory[0m:[36mload_pretrained_weights[0m:[36m183[0m - [32m[1mLoaded pretrained weights from D:\PIG_MOT_TEST_DATA\tracking_experiments\weights\osnet_x0_25_msmt17.pt[0m
+[32m2026-10-21 16:55:04.881[0m | [1mINFO    [0m | [36mboxmot.utils.torch_utils[0m:[36mselect_device[0m:[36m52[0m - [1mYolo Tracking v10.0.78 \U0001f680 Python-3.10.21 torch-2.7.1+cu118
+CUDA:0 (NVIDIA GeForce RTX 3060 Laptop GPU, 6144MiB)[0m
+[32m2026-10-21 16:55:04.999[0m | [32m[1mSUCCESS [0m | [36mboxmot.appearance.reid_model_factory[0m:[36mload_pretrained_weights[0m:[36m183[0m - [32m[1mLoaded pretrained weights from D:\PIG_MOT_TEST_DATA\tracking_experiments\weights\osnet_x0_25_msmt17.pt[0m
+correction: 0.4130450768671434
+correction: 0.44399601830734536
+correction: 0.5156201769920035
+[191] 500/1737 (133s)
+correction: 0.4576883550170594
+correction: 0.5635624499666736
+[191] 1000/1737 (274s)
+[191] 1500/1737 (416s)
+correction: 0.4868106427179776
+[191] done in 8.1 min
+[32m2026-10-21 17:03:11.123[0m | [1mINFO    [0m | [36mboxmot.utils.torch_utils[0m:[36mselect_device[0m:[36m52[0m - [1mYolo Tracking v10.0.78 \U0001f680 Python-3.10.21 torch-2.7.1+cu118
+CUDA:0 (NVIDIA GeForce RTX 3060 Laptop GPU, 6144MiB)[0m
+[32m2026-10-21 17:03:11.248[0m | [32m[1mSUCCESS [0m | [36mboxmot.appearance.reid_model_factory[0m:[36mload_pretrained_weights[0m:[36m183[0m - [32m[1mLoaded pretrained weights from D:\PIG_MOT_TEST_DATA\tracking_experiments\weights\osnet_x0_25_msmt17.pt[0m
+[32m2026-10-21 17:03:11.305[0m | [1mINFO    [0m | [36mboxmot.utils.torch_utils[0m:[36mselect_device[0m:[36m52[0m - [1mYolo Tracking v10.0.78 \U0001f680 Python-3.10.21 torch-2.7.1+cu118
+CUDA:0 (NVIDIA GeForce RTX 3060 Laptop GPU, 6144MiB)[0m
+[32m2026-10-21 17:03:11.426[0m | [32m[1mSUCCESS [0m | [36mboxmot.appearance.reid_model_factory[0m:[36mload_pretrained_weights[0m:[36m183[0m - [32m[1mLoaded pretrained weights from D:\PIG_MOT_TEST_DATA\tracking_experiments\weights\osnet_x0_25_msmt17.pt[0m
+[32m2026-10-21 17:03:11.483[0m | [1mINFO    [0m | [36mboxmot.utils.torch_utils[0m:[36mselect_device[0m:[36m52[0m - [1mYolo Tracking v10.0.78 \U0001f680 Python-3.10.21 torch-2.7.1+cu118
+CUDA:0 (NVIDIA GeForce RTX 3060 Laptop GPU, 6144MiB)[0m
+[32m2026-10-21 17:03:11.606[0m | [32m[1mSUCCESS [0m | [36mboxmot.appearance.reid_model_factory[0m:[36mload_pretrained_weights[0m:[36m183[0m - [32m[1mLoaded pretrained weights from D:\PIG_MOT_TEST_DATA\tracking_experiments\weights\osnet_x0_25_msmt17.pt[0m
+[32m2026-10-21 17:03:11.669[0m | [1mINFO    [0m | [36mboxmot.utils.torch_utils[0m:[36mselect_device[0m:[36m52[0m - [1mYolo Tracking v10.0.78 \U0001f680 Python-3.10.21 torch-2.7.1+cu118
+CUDA:0 (NVIDIA GeForce RTX 3060 Laptop GPU, 6144MiB)[0m
+[32m2026-10-21 17:03:11.792[0m | [32m[1mSUCCESS [0m | [36mboxmot.appearance.reid_model_factory[0m:[36mload_pretrained_weights[0m:[36m183[0m - [32m[1mLoaded pretrained weights from D:\PIG_MOT_TEST_DATA\tracking_experiments\weights\osnet_x0_25_msmt17.pt[0m
+correction: 0.40056773280815294
+correction: 0.44552272469887655
+correction: 0.4710504151312339
+[192] 500/1883 (143s)
+correction: 0.4975808917589082
+correction: 0.412709591708213
+[192] 1000/1883 (290s)
+correction: 0.42454067009822727
+correction: 0.44220359745962323
+[192] 1500/1883 (440s)
+correction: 0.5741667192709172
+correction: 0.4841287141151126
+[192] done in 9.3 min
+[32m2026-10-21 17:12:32.702[0m | [1mINFO    [0m | [36mboxmot.utils.torch_utils[0m:[36mselect_device[0m:[36m52[0m - [1mYolo Tracking v10.0.78 \U0001f680 Python-3.10.21 torch-2.7.1+cu118
+CUDA:0 (NVIDIA GeForce RTX 3060 Laptop GPU, 6144MiB)[0m
+[32m2026-10-21 17:12:32.822[0m | [32m[1mSUCCESS [0m | [36mboxmot.appearance.reid_model_factory[0m:[36mload_pretrained_weights[0m:[36m183[0m - [32m[1mLoaded pretrained weights from D:\PIG_MOT_TEST_DATA\tracking_experiments\weights\osnet_x0_25_msmt17.pt[0m
+[32m2026-10-21 17:12:32.889[0m | [1mINFO    [0m | [36mboxmot.utils.torch_utils[0m:[36mselect_device[0m:[36m52[0m - [1mYolo Tracking v10.0.78 \U0001f680 Python-3.10.21 torch-2.7.1+cu118
+CUDA:0 (NVIDIA GeForce RTX 3060 Laptop GPU, 6144MiB)[0m
+[32m2026-10-21 17:12:33.388[0m | [32m[1mSUCCESS [0m | [36mboxmot.appearance.reid_model_factory[0m:[36mload_pretrained_weights[0m:[36m183[0m - [32m[1mLoaded pretrained weights from D:\PIG_MOT_TEST_DATA\tracking_experiments\weights\osnet_x0_25_msmt17.pt[0m
+[32m2026-10-21 17:12:33.441[0m | [1mINFO    [0m | [36mboxmot.utils.torch_utils[0m:[36mselect_device[0m:[36m52[0m - [1mYolo Tracking v10.0.78 \U0001f680 Python-3.10.21 torch-2.7.1+cu118
+CUDA:0 (NVIDIA GeForce RTX 3060 Laptop GPU, 6144MiB)[0m
+[32m2026-10-21 17:12:33.563[0m | [32m[1mSUCCESS [0m | [36mboxmot.appearance.reid_model_factory[0m:[36mload_pretrained_weights[0m:[36m183[0m - [32m[1mLoaded pretrained weights from D:\PIG_MOT_TEST_DATA\tracking_experiments\weights\osnet_x0_25_msmt17.pt[0m
+[32m2026-10-21 17:12:33.637[0m | [1mINFO    [0m | [36mboxmot.utils.torch_utils[0m:[36mselect_device[0m:[36m52[0m - [1mYolo Tracking v10.0.78 \U0001f680 Python-3.10.21 torch-2.7.1+cu118
+CUDA:0 (NVIDIA GeForce RTX 3060 Laptop GPU, 6144MiB)[0m
+[32m2026-10-21 17:12:33.749[0m | [32m[1mSUCCESS [0m | [36mboxmot.appearance.reid_model_factory[0m:[36mload_pretrained_weights[0m:[36m183[0m - [32m[1mLoaded pretrained weights from D:\PIG_MOT_TEST_DATA\tracking_experiments\weights\osnet_x0_25_msmt17.pt[0m
+correction: 0.41119715926784595
+correction: 0.49451457012965927
+correction: 0.4114498703787124
+[193] 500/1904 (122s)
+[193] 1000/1904 (248s)
+correction: 0.5228102879969405
+correction: 0.49996122000392995
+correction: 0.5027370713309944
+correction: 0.42974209454427936
+[193] 1500/1904 (373s)
+correction: 0.5814850050003292
+correction: 0.49301970359575154
+correction: 0.42137532894637575
+correction: 0.5473403268935382
+[193] done in 8.0 min
+[32m2026-10-21 17:20:31.573[0m | [1mINFO    [0m | [36mboxmot.utils.torch_utils[0m:[36mselect_device[0m:[36m52[0m - [1mYolo Tracking v10.0.78 \U0001f680 Python-3.10.21 torch-2.7.1+cu118
+CUDA:0 (NVIDIA GeForce RTX 3060 Laptop GPU, 6144MiB)[0m
+[32m2026-10-21 17:20:31.723[0m | [32m[1mSUCCESS [0m | [36mboxmot.appearance.reid_model_factory[0m:[36mload_pretrained_weights[0m:[36m183[0m - [32m[1mLoaded pretrained weights from D:\PIG_MOT_TEST_DATA\tracking_experiments\weights\osnet_x0_25_msmt17.pt[0m
+[32m2026-10-21 17:20:31.786[0m | [1mINFO    [0m | [36mboxmot.utils.torch_utils[0m:[36mselect_device[0m:[36m52[0m - [1mYolo Tracking v10.0.78 \U0001f680 Python-3.10.21 torch-2.7.1+cu118
+CUDA:0 (NVIDIA GeForce RTX 3060 Laptop GPU, 6144MiB)[0m
+[32m2026-10-21 17:20:31.940[0m | [32m[1mSUCCESS [0m | [36mboxmot.appearance.reid_model_factory[0m:[36mload_pretrained_weights[0m:[36m183[0m - [32m[1mLoaded pretrained weights from D:\PIG_MOT_TEST_DATA\tracking_experiments\weights\osnet_x0_25_msmt17.pt[0m
+[32m2026-10-21 17:20:32.001[0m | [1mINFO    [0m | [36mboxmot.utils.torch_utils[0m:[36mselect_device[0m:[36m52[0m - [1mYolo Tracking v10.0.78 \U0001f680 Python-3.10.21 torch-2.7.1+cu118
+CUDA:0 (NVIDIA GeForce RTX 3060 Laptop GPU, 6144MiB)[0m
+[32m2026-10-21 17:20:32.160[0m | [32m[1mSUCCESS [0m | [36mboxmot.appearance.reid_model_factory[0m:[36mload_pretrained_weights[0m:[36m183[0m - [32m[1mLoaded pretrained weights from D:\PIG_MOT_TEST_DATA\tracking_experiments\weights\osnet_x0_25_msmt17.pt[0m
+[32m2026-10-21 17:20:32.229[0m | [1mINFO    [0m | [36mboxmot.utils.torch_utils[0m:[36mselect_device[0m:[36m52[0m - [1mYolo Tracking v10.0.78 \U0001f680 Python-3.10.21 torch-2.7.1+cu118
+CUDA:0 (NVIDIA GeForce RTX 3060 Laptop GPU, 6144MiB)[0m
+[32m2026-10-21 17:20:32.423[0m | [32m[1mSUCCESS [0m | [36mboxmot.appearance.reid_model_factory[0m:[36mload_pretrained_weights[0m:[36m183[0m - [32m[1mLoaded pretrained weights from D:\PIG_MOT_TEST_DATA\tracking_experiments\weights\osnet_x0_25_msmt17.pt[0m
+correction: 0.417287358639404
+correction: 0.4316594144099094
+correction: 0.5204008045046118
+correction: 0.45584626083276003
+correction: 0.41664928446957616
+[194] 500/1813 (127s)
+correction: 0.4691341444155339
+correction: 0.42170338157479614
+correction: 0.45161089722157877
+correction: 0.42281147411515785
+correction: 0.44456122785661334
+correction: 0.4127730695374944
+correction: 0.4504908420429774
+correction: 0.4559842107422867
+[194] 1000/1813 (255s)
+correction: 0.418710713783642
+correction: 0.5390789576436362
+correction: 0.4593276266359321
+correction: 0.4817296703767254
+correction: 0.4845094949335058
+correction: 0.4482592199302974
+[194] 1500/1813 (381s)
+correction: 0.4206684609054395
+correction: 0.47843014728481736
+correction: 0.435415688876036
+[194] done in 7.7 min
+[32m2026-10-21 17:28:12.327[0m | [1mINFO    [0m | [36mboxmot.utils.torch_utils[0m:[36mselect_device[0m:[36m52[0m - [1mYolo Tracking v10.0.78 \U0001f680 Python-3.10.21 torch-2.7.1+cu118
+CUDA:0 (NVIDIA GeForce RTX 3060 Laptop GPU, 6144MiB)[0m
+[32m2026-10-21 17:28:12.454[0m | [32m[1mSUCCESS [0m | [36mboxmot.appearance.reid_model_factory[0m:[36mload_pretrained_weights[0m:[36m183[0m - [32m[1mLoaded pretrained weights from D:\PIG_MOT_TEST_DATA\tracking_experiments\weights\osnet_x0_25_msmt17.pt[0m
+[32m2026-10-21 17:28:12.518[0m | [1mINFO    [0m | [36mboxmot.utils.torch_utils[0m:[36mselect_device[0m:[36m52[0m - [1mYolo Tracking v10.0.78 \U0001f680 Python-3.10.21 torch-2.7.1+cu118
+CUDA:0 (NVIDIA GeForce RTX 3060 Laptop GPU, 6144MiB)[0m
+[32m2026-10-21 17:28:12.645[0m | [32m[1mSUCCESS [0m | [36mboxmot.appearance.reid_model_factory[0m:[36mload_pretrained_weights[0m:[36m183[0m - [32m[1mLoaded pretrained weights from D:\PIG_MOT_TEST_DATA\tracking_experiments\weights\osnet_x0_25_msmt17.pt[0m
+[32m2026-10-21 17:28:12.704[0m | [1mINFO    [0m | [36mboxmot.utils.torch_utils[0m:[36mselect_device[0m:[36m52[0m - [1mYolo Tracking v10.0.78 \U0001f680 Python-3.10.21 torch-2.7.1+cu118
+CUDA:0 (NVIDIA GeForce RTX 3060 Laptop GPU, 6144MiB)[0m
+[32m2026-10-21 17:28:12.833[0m | [32m[1mSUCCESS [0m | [36mboxmot.appearance.reid_model_factory[0m:[36mload_pretrained_weights[0m:[36m183[0m - [32m[1mLoaded pretrained weights from D:\PIG_MOT_TEST_DATA\tracking_experiments\weights\osnet_x0_25_msmt17.pt[0m
+[32m2026-10-21 17:28:12.894[0m | [1mINFO    [0m | [36mboxmot.utils.torch_utils[0m:[36mselect_device[0m:[36m52[0m - [1mYolo Tracking v10.0.78 \U0001f680 Python-3.10.21 torch-2.7.1+cu118
+CUDA:0 (NVIDIA GeForce RTX 3060 Laptop GPU, 6144MiB)[0m
+[32m2026-10-21 17:28:13.018[0m | [32m[1mSUCCESS [0m | [36mboxmot.appearance.reid_model_factory[0m:[36mload_pretrained_weights[0m:[36m183[0m - [32m[1mLoaded pretrained weights from D:\PIG_MOT_TEST_DATA\tracking_experiments\weights\osnet_x0_25_msmt17.pt[0m
+correction: 0.4251392931457737
+correction: 0.4663067678971071
+correction: 0.5849250107119461
+correction: 0.47985355485510406
+correction: 0.5891971859802172
+[195] 500/1718 (131s)
+correction: 0.4743492865295511
+correction: 0.4275726868419947
+[195] 1000/1718 (253s)
+correction: 0.42599222444834883
+correction: 0.42993665482569254
+[195] 1500/1718 (378s)
+correction: 0.43870767471292327
+[195] done in 7.2 min
+[32m2026-10-21 17:35:26.402[0m | [1mINFO    [0m | [36mboxmot.utils.torch_utils[0m:[36mselect_device[0m:[36m52[0m - [1mYolo Tracking v10.0.78 \U0001f680 Python-3.10.21 torch-2.7.1+cu118
+CUDA:0 (NVIDIA GeForce RTX 3060 Laptop GPU, 6144MiB)[0m
+[32m2026-10-21 17:35:26.530[0m | [32m[1mSUCCESS [0m | [36mboxmot.appearance.reid_model_factory[0m:[36mload_pretrained_weights[0m:[36m183[0m - [32m[1mLoaded pretrained weights from D:\PIG_MOT_TEST_DATA\tracking_experiments\weights\osnet_x0_25_msmt17.pt[0m
+[32m2026-10-21 17:35:26.590[0m | [1mINFO    [0m | [36mboxmot.utils.torch_utils[0m:[36mselect_device[0m:[36m52[0m - [1mYolo Tracking v10.0.78 \U0001f680 Python-3.10.21 torch-2.7.1+cu118
+CUDA:0 (NVIDIA GeForce RTX 3060 Laptop GPU, 6144MiB)[0m
+[32m2026-10-21 17:35:26.717[0m | [32m[1mSUCCESS [0m | [36mboxmot.appearance.reid_model_factory[0m:[36mload_pretrained_weights[0m:[36m183[0m - [32m[1mLoaded pretrained weights from D:\PIG_MOT_TEST_DATA\tracking_experiments\weights\osnet_x0_25_msmt17.pt[0m
+[32m2026-10-21 17:35:26.778[0m | [1mINFO    [0m | [36mboxmot.utils.torch_utils[0m:[36mselect_device[0m:[36m52[0m - [1mYolo Tracking v10.0.78 \U0001f680 Python-3.10.21 torch-2.7.1+cu118
+CUDA:0 (NVIDIA GeForce RTX 3060 Laptop GPU, 6144MiB)[0m
+[32m2026-10-21 17:35:26.909[0m | [32m[1mSUCCESS [0m | [36mboxmot.appearance.reid_model_factory[0m:[36mload_pretrained_weights[0m:[36m183[0m - [32m[1mLoaded pretrained weights from D:\PIG_MOT_TEST_DATA\tracking_experiments\weights\osnet_x0_25_msmt17.pt[0m
+[32m2026-10-21 17:35:26.969[0m | [1mINFO    [0m | [36mboxmot.utils.torch_utils[0m:[36mselect_device[0m:[36m52[0m - [1mYolo Tracking v10.0.78 \U0001f680 Python-3.10.21 torch-2.7.1+cu118
+CUDA:0 (NVIDIA GeForce RTX 3060 Laptop GPU, 6144MiB)[0m
+[32m2026-10-21 17:35:27.097[0m | [32m[1mSUCCESS [0m | [36mboxmot.appearance.reid_model_factory[0m:[36mload_pretrained_weights[0m:[36m183[0m - [32m[1mLoaded pretrained weights from D:\PIG_MOT_TEST_DATA\tracking_experiments\weights\osnet_x0_25_msmt17.pt[0m
+[196] 500/1883 (118s)
+correction: 0.5154823976191464
+correction: 0.4219040184665437
+correction: 0.4073354156834421
+correction: 0.40407043250014807
+[196] 1000/1883 (240s)
+correction: 0.467385498984084
+correction: 0.46044172056578747
+correction: 0.4256366242010772
+correction: 0.40299715527383984
+correction: 0.4173117665566991
+correction: 0.5016328067642242
+correction: 0.4248460780432566
+correction: 0.4144348154015619
+[196] 1500/1883 (374s)
+correction: 0.4196159531765301
+correction: 0.49050119073279663
+correction: 0.4843377951248362
+correction: 0.4458105057560574
+correction: 0.4430699144785524
+correction: 0.41315162895531066
+correction: 0.46925281541117103
+correction: 0.4102946853695255
+correction: 0.4791773170193204
+correction: 0.4096322820722168
+correction: 0.4420666302351399
+[196] done in 7.8 min
+[32m2026-10-21 17:43:17.056[0m | [1mINFO    [0m | [36mboxmot.utils.torch_utils[0m:[36mselect_device[0m:[36m52[0m - [1mYolo Tracking v10.0.78 \U0001f680 Python-3.10.21 torch-2.7.1+cu118
+CUDA:0 (NVIDIA GeForce RTX 3060 Laptop GPU, 6144MiB)[0m
+[32m2026-10-21 17:43:17.188[0m | [32m[1mSUCCESS [0m | [36mboxmot.appearance.reid_model_factory[0m:[36mload_pretrained_weights[0m:[36m183[0m - [32m[1mLoaded pretrained weights from D:\PIG_MOT_TEST_DATA\tracking_experiments\weights\osnet_x0_25_msmt17.pt[0m
+[32m2026-10-21 17:43:17.251[0m | [1mINFO    [0m | [36mboxmot.utils.torch_utils[0m:[36mselect_device[0m:[36m52[0m - [1mYolo Tracking v10.0.78 \U0001f680 Python-3.10.21 torch-2.7.1+cu118
+CUDA:0 (NVIDIA GeForce RTX 3060 Laptop GPU, 6144MiB)[0m
+[32m2026-10-21 17:43:17.385[0m | [32m[1mSUCCESS [0m | [36mboxmot.appearance.reid_model_factory[0m:[36mload_pretrained_weights[0m:[36m183[0m - [32m[1mLoaded pretrained weights from D:\PIG_MOT_TEST_DATA\tracking_experiments\weights\osnet_x0_25_msmt17.pt[0m
+[32m2026-10-21 17:43:17.442[0m | [1mINFO    [0m | [36mboxmot.utils.torch_utils[0m:[36mselect_device[0m:[36m52[0m - [1mYolo Tracking v10.0.78 \U0001f680 Python-3.10.21 torch-2.7.1+cu118
+CUDA:0 (NVIDIA GeForce RTX 3060 Laptop GPU, 6144MiB)[0m
+[32m2026-10-21 17:43:17.568[0m | [32m[1mSUCCESS [0m | [36mboxmot.appearance.reid_model_factory[0m:[36mload_pretrained_weights[0m:[36m183[0m - [32m[1mLoaded pretrained weights from D:\PIG_MOT_TEST_DATA\tracking_experiments\weights\osnet_x0_25_msmt17.pt[0m
+[32m2026-10-21 17:43:17.636[0m | [1mINFO    [0m | [36mboxmot.utils.torch_utils[0m:[36mselect_device[0m:[36m52[0m - [1mYolo Tracking v10.0.78 \U0001f680 Python-3.10.21 torch-2.7.1+cu118
+CUDA:0 (NVIDIA GeForce RTX 3060 Laptop GPU, 6144MiB)[0m
+[32m2026-10-21 17:43:17.775[0m | [32m[1mSUCCESS [0m | [36mboxmot.appearance.reid_model_factory[0m:[36mload_pretrained_weights[0m:[36m183[0m - [32m[1mLoaded pretrained weights from D:\PIG_MOT_TEST_DATA\tracking_experiments\weights\osnet_x0_25_msmt17.pt[0m
+correction: 0.4248871555144228
+correction: 0.4470313338603733
+correction: 0.4548949506127058
+correction: 0.43068740256406723
+correction: 0.45032319886387717
+correction: 0.42783916214378215
+correction: 0.4985319089122048
+correction: 0.4421279605156605
+correction: 0.4089974134018376
+[197] 500/1811 (126s)
+correction: 0.4036834906088741
+correction: 0.41031874191884155
+[197] 1000/1811 (250s)
+correction: 0.42585969966068715
+correction: 0.41050237817138446
+correction: 0.4399664379465861
+[197] 1500/1811 (373s)
+correction: 0.5118438349942085
+correction: 0.4812544830734893
+[197] done in 7.6 min
+bytetrack: 492.9 FPS (update 2.03 ms)
+ocsort: 567.8 FPS (update 1.76 ms)
+deepocsort: 19.7 FPS (update 50.80 ms)
+strongsort: 10.4 FPS (update 96.32 ms)
+botsort: 19.7 FPS (update 50.84 ms)
+hybridsort: 20.1 FPS (update 49.67 ms)
+ALL TRACKING DONE in 55.8 min
